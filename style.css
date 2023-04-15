@@ -1,0 +1,51 @@
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 3px solid black;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.mode {
+    margin-bottom: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+input {
+   margin-left: 150px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+
